@@ -1,0 +1,78 @@
+<html>
+<head>
+<link href="css/cadastrofornecedor.css" rel="stylesheet" type="text/css">
+<meta charset="utf-8">
+</head>
+<body>
+<div class="barra">
+<nav>
+<ul>
+<img src="fotos/logo2.png">
+<li id="inicio" ><a href="home.html">Início</li></a>
+<li id="empresa"><a  href="empresa.html">Empresa</li></a>
+<li id="cliente"><a href="cadastrocliente.html">Cadastre-se aqui</li></a>
+<li id="forn"><a href="cadastrofornecedor.html">Cadastro Fornecedor</li></a>
+<li id="prod"><a href="cadastroproduto.html">Cadastre seus produtos</li></a>
+<li id="contato"><a href="faleconosco.html">Fale conosco</li></a><br>
+</nav> 
+</ul>
+</div><br>
+<div class="logo2">
+<img src="fotos/logo2.png">
+</div>
+<div class="dados">
+<p><font color="red"><h3>DADOS BÁSICOS</h3></font></p>
+<!--cliente envia os dados do formulário de cadastro-->
+<form action="" method="">
+<!--campos-->
+Tipo de Serviço a Fornecer: <br>
+<textarea rows="10" cols="42" maxlength="530" name="comentarios"></textarea> <br>
+Nome completo: <br>
+<input type="text" name="nome" size="40"> <br>
+<tr>
+CPF: <br>
+<td><input type="text" name="cpf" maxlength="11" OnKeyPress="formatar('###.###.###-##', this)" ></td>
+</tr><br>
+<p><font color="red"><h3>DADOS COMPLEMENTARES</h3></font></p>
+RG: <br>
+<td><input type="text" name="cpf" maxlength="9" OnKeyPress="formatar('###.###.###-##', this)" ></td>
+</tr><br>
+Endereço: <br>
+<input type="text" name="endereco" size="40"> <br>
+Cidade/UF: <br>
+<input type="text" size="9" maxlength="20" name="cidade">
+<input type="text" size="2" maxlength="2" name="estado"><br>
+País: <br>
+<input type="text" name="nacionalidade" size="9"> <br>
+<p><font color="red"><h3>CONTATOS DA EMPRESA</h3></font></p>
+Nome do contato do Fornecedor: <br>
+<input type="text" name="nome" size="40"> <br>
+E-mail do contato do Fornecedor: <br>
+<input type="text" name="email" size="40"> <br>
+Telefone Comercial: <br> 
+<input type="tel" size="2" maxlength="2" name="telefone">
+<input type="tel" size="9" maxlength="9" name="telefone"><br>
+Celular: <br> 
+<input type="tel" size="2" maxlength="2" name="telefone">
+<input type="tel" size="9" maxlength="9" name="telefone"><br>
+<p><font color="red"><h3>DADOS BANCÁRIOS</h3></font></p>
+Nome do Banco: <br>
+<input type="text" name="nome" size="40"> <br>
+Agência: <br>
+<input type="tel" size="9" maxlength="15" name="agencia"><br>
+Conta Corrente: <br>
+<input type="tel" size="9" maxlength="15" name="agencia"><br>
+<input type="submit" name="save" value="Cadastrar Fornecedor" />
+</div>
+
+<!--rodapé-->
+<footer class="footer">
+        <img src="fotos/logo2.png" class="center">
+        <p id="desde">Barbearia Barber Men's © 2019. Todos os direitos reservados.</p> 
+        </footer>
+        
+
+
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+body{
+	margin:0px;
+	background: #ffffff;
+}
+ul {
+	/*sem estilo de lista, remover marcadores "•"*/
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	/*preencher a barra por completo overflow*/
+	overflow: hidden;
+	background-color: #070105;
+}
+li {
+	float: left;
+}
+li a {
+	/*display=exibição da barra*/
+	display: block;
+	color: rgb(243, 14, 14);
+	/*preenchimento, espaçamento1= tamanho da barra
+	espaçamento2=espaço entre as palavras*/
+	padding: 35px 40px;
+	text-decoration: none;
+}
+li a:hover {
+	/*mudar a cor quando passar o mouse*/
+	background-color: rgb(230, 136, 136);
+}
+.barra img{
+	float:left;
+}
+.logo2 img{
+	float:right;
+	position:relative;
+	top:-110px;
+}
+/*envie uma mensagem div*/
+.usuario{
+    position:absolute;
+    left:20px;
+    top:15%;
+}
+/*google maps*/
+.mapa{
+	position:absolute;
+    top:45%;
+    right:20px; 
+}
+/*contato div*/
+.contato{
+    position:absolute;
+    top:15%;
+    right:20px;  
+}
+
+/*rodapé*/
+.footer{
+	position: relative;
+	background-color: #070105;
+	color: rgb(243, 14, 14);
+	text-align: center;
+	padding: 40px;
+	bottom: -550px;
+}
+#desde{
+	position: absolute;
+	left:490px;
+}
+/*centralizando imagem do rodape*/
+.center{
+	margin-right: -25px;
+}

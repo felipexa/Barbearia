@@ -1,0 +1,315 @@
+body{
+	margin:0px;
+	/*cor de fundo do site*/
+	background: #ffffff;
+	/*ocultar barra de rolagem horizontal*/
+	overflow-x: hidden;
+}
+ul {
+	/*sem estilo de lista, remover marcadores "•"*/
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	/*preencher a barra por completo overflow*/
+	overflow: hidden;
+	background-color: #070105;
+}
+li {
+	float: left;
+}
+li a {
+	/*display=exibição da barra*/
+	display: block;
+	color: rgb(243, 14, 14);
+	/*preenchimento, espaçamento1= tamanho da barra
+	espaçamento2=espaço entre as palavras*/
+	padding: 35px 40px;
+	text-decoration: none;
+}
+li a:hover {
+	/*mudar a cor quando passar o mouse*/
+	background-color: rgb(230, 136, 136);
+}
+/*logo BARBER MEN'S lado esquerdo*/
+.barra img{
+	float:left;
+}
+/*logo BARBER MEN'S lado direito*/
+.logo2 img{
+	float:right;
+	position:relative;
+	top:-110px;
+}
+/*titulo h1 SERVIÇOS*/
+.serv{
+	position:relative;
+	left:630px;
+	top:20px;
+	color:rgb(243, 14, 14);
+}
+/*titulo h3 BARBA*/
+.h{
+	position:relative;
+	top: -420px;;
+	left: 180px;
+	text-decoration: underline;
+	color:rgb(243, 14, 14);
+}
+/*completa ou desenhada*/
+.completa{
+	position:absolute;
+	top:350px;
+	left:50px;
+}
+/*barba*/
+.barb{
+	position:absolute;
+	top:390px;
+	left:50px;
+
+}
+/*titulo h3 MÃO*/
+.mao{
+	position:absolute;
+	top:540px;
+	left:185px;
+	text-decoration: underline;
+	color:rgb(243, 14, 14);
+}
+/*parcial(cortar, lixar e hidratar)*/
+.parcial{
+	position:absolute;
+	top:590px;
+	left:50px;
+
+}
+/*completa(tirando cuticulas)*/
+.cut{
+	position:absolute;
+	top:635px;
+	left:50px;
+
+}
+/*posição da div*/
+.cabelo{
+	position:absolute;
+	top:212px;
+	left:500px;
+}
+/*titulo h3 CABELO*/
+.cab{
+	position:absolute;
+	top:95px;
+	left:148px;
+	text-decoration: underline;
+	color:rgb(243, 14, 14);
+}
+/*pezinho*/
+.pe{
+	position:absolute;
+	top:140px;
+	left:25px;
+}
+/*raspar*/
+.rasp{
+	position:absolute;
+	top:180px;
+	left:25px;
+}
+/*corte*/
+.cort{
+	position:absolute;
+	top:220px;
+	left:25px;
+}
+/*camuflagem*/
+.cam{
+	position:absolute;
+	top:260px;
+	left:25px;
+}
+/*tintura*/
+.tint{
+	position:absolute;
+	top:300px;
+	left:25px;
+}
+/*hidratação capilar*/
+.hid{
+	position:absolute;
+	top:340px;
+	left:25px;
+}
+/*posição da div*/
+.pelo{
+	position:absolute;
+	top:240px;
+	left:970px;
+}
+/*título h3 PELOS*/
+.pel{
+	position:absolute;
+	top:68px;
+	left:145px;
+	text-decoration: underline;
+	color:rgb(243, 14, 14);
+}
+/*sobrancelhas*/
+.sob{
+	position:absolute;
+	top:110px;
+	left:20px;
+}
+/*ouvidos*/
+.ouv{
+	position:absolute;
+	top:140px;
+	left:20px;
+}
+/*nariz*/
+.nar{
+	position:absolute;
+	top:170px;
+	left:20px;
+}
+/*axilas*/
+.ax{
+	position:absolute;
+	top:200px;
+	left:20px;
+}
+/*braço*/
+.bra{
+	position:absolute;
+	top:230px;
+	left:20px;
+}
+/*perna*/
+.per{
+	position:absolute;
+	top:260px;
+	left:20px;
+}
+/*costas*/
+.cost{
+	position:absolute;
+	top:290px;
+	left:20px;
+}
+/*costas e ombro*/
+.costo{
+	position:absolute;
+	top:320px;
+	left:20px;
+}
+/*peito*/
+.peit{
+	position:absolute;
+	top:350px;
+	left:20px;
+}
+/*abdome*/
+.abd{
+	position:absolute;
+	top:380px;
+	left:20px;
+}
+
+/*galeria de fotos*/
+.gal{
+	position:relative;
+	left:580px;
+}
+/*undercut afro+barba media*/
+.afro{
+	position:relative;
+	float: left;
+	left:20px;
+}
+/*imagem*/
+.corte1{
+	position:relative;
+	float: left;
+	top:40px;
+	left:-250px;
+}
+/*crew cut+barba baixa*/
+.cutb{
+	position:relative;
+	left:-160px;
+	float: left;
+}
+/*imagem*/
+.corte2{
+	position:relative;
+	left:-400px;
+	top:40px;
+	float: left;
+}
+/*fade degrade+barba aparada*/
+.fade{
+	position:relative;
+	top:16px;
+	right:8px;
+}
+/*imagem*/
+.corte3{
+	position:relative;
+	top:6px;
+	right:10px;
+}
+/*quiff afro+barba curta*/
+.quiff{
+	position:relative;
+	top:-318px;
+	left:720px;
+}
+/*imagem*/
+.corte4{
+	position:relative;
+	top:-328px;
+	right:380px;
+	float:right;
+}
+
+/*centralizar h1 FORNECEDORES*/
+.fornc{
+	position:relative;
+	left:630px;	
+	top:0px;
+}
+/*fornecedor KEUNE*/
+.forni1{
+	position:relative;
+	bottom:0px;
+	left:50px;
+	top:0px;
+}
+/*fornecedor MEN'S MARKET*/
+.forni2{
+	position:relative;
+	bottom:0px;
+	left:200px;
+	top:0px;
+}
+/*fornecedor WAHL*/
+.forni3{
+	position:relative;
+	bottom:0px;
+	left:350px;
+	top:0px;
+}
+
+/*rodapé*/
+.footer{
+	position: relative;
+	background-color: #070105;
+	color: rgb(243, 14, 14);
+	text-align: center;
+	padding: 40px;
+	
+}
+#desde{
+	position: absolute;
+	left:490px;
+}
